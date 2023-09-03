@@ -1,0 +1,45 @@
+[0:31 pm, 12/08/2023] Pathan Mabu khan: <!DOCTYPE html>
+<html>
+<head>
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center" style="background-color: blue;">Scientific Calculator</h1>
+        <div class="input-container text-center mb-3">
+            <input type="text" id="inputtext" class="form-control" placeholder="0">
+            <button onclick="clr()" class="btn btn-danger">C</button>
+            <button onclick="del()" class="btn btn-danger">DEL</button>
+            <button onclick="calculate('%')" class="btn btn-warning">%</button>
+            <button onclick="calculate('/')" class="btn btn-warning">/</button>
+            <button onclick="calculate('sin(')" class="btn btn-warning">sin</button>
+            <button onclick="calculate('cos(')" class="btn btn-warning">cos</button>
+            <button onclick="calculate('tan(')" class="btn btn-warning">tan</button>
+            <button onclick="calculate('sqrt(')" class="btn btn-warning">√</button>
+            <button onclick="calculate('00')" class="btn btn-warning">00</button>
+            <button onclick="calculate('(')" class="btn btn-warning">(</button>
+            <button onclick="calculate(')')" class="btn btn-warning">)</button>
+            <button onclick="calculate('Math.log(')" class="btn btn-warning">log</button>
+            <button onclick="calculate(7)" class="btn btn-primary">7</button>
+            <button onclick="calculate(8)" class="btn btn-primary">8</button>
+            <button onclick="calculate(9)" class="btn btn-primary">9</button>
+            <button onclick="calculate('-')" class="btn btn-warning">-</button>
+            <button onclick="calculate(4)" class="btn btn-primary">4</button>
+            <button onclick="calculate(5)" class="btn btn-primary">5</button>
+            <button onclick="calculate(6)" class="btn btn-primary">6</button>
+            <button onclick="calculate('+')" class="btn btn-warning">+</button> 
+            <button onclick="calculate(1)" class="btn btn-primary">1</button>
+            <button onclick="calculate(2)" class="btn btn-primary">2</button>
+            <button onclick="calculate(3)" class="btn btn-primary">3</button>
+            <button onclick="calculate('*')" class="btn btn-warning">X</button>
+            <button onclick="calculate(0)" class="btn btn-primary">0</button>
+            <button onclick="calculate('.')" class="btn btn-primary">.</button>
+            <button onclick="Result()" class="btn btn-success equal" style="grid-column: span 2;">=</button>
+        </div>
+    </div>
+    <script src="newjs.js"></script>
+</body>
+</html>
+ 
